@@ -18,8 +18,8 @@ function myFunction(config) {
 
 function addChains() {
   const pylonsConfig = {
-    rpc: "http://46.166.140.172:26657",
-    rest: "http://46.166.140.172:1317",
+    rpc: "https://rpc.pylons.tech",
+    rest: "https://lcd.pylons.tech",
     chainId: "pylons-testnet-3",
     chainName: "pylons-testnet-3",
     stakeCurrency: {
